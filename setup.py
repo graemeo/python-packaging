@@ -5,4 +5,7 @@ setup(name='package_me_up',
       description='Learning on how to package up Python module',
       author='GraemeO',
       author_email='iaintgivingnothing',
-      url='https://graemeo.github.io')
+      url='https://graemeo.github.io',
+      install_requires=[
+          'requests'
+      ])
